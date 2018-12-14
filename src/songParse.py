@@ -71,6 +71,8 @@ class Song():
 
 # Test
 os.chdir('../data/input/')
+file = 'route3.txt'
 s = Song()
-s.fileParse('pewter.txt')
+s.fileParse(file)
+os.chdir('../../src')
 
